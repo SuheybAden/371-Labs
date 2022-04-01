@@ -1,0 +1,29 @@
+|multpath
+clock_333 => reg_B[0].CLK
+clock_333 => reg_B[1].CLK
+clock_333 => reg_B[2].CLK
+clock_333 => reg_B[3].CLK
+clock_333 => reg_A[0].CLK
+clock_333 => reg_A[1].CLK
+clock_333 => reg_A[2].CLK
+clock_333 => reg_A[3].CLK
+clock_666 => sum[0]~reg0.CLK
+clock_666 => sum[1]~reg0.CLK
+clock_666 => sum[2]~reg0.CLK
+clock_666 => sum[3]~reg0.CLK
+clock_666 => sum[4]~reg0.CLK
+A[0] => reg_A[0].DATAIN
+A[1] => reg_A[1].DATAIN
+A[2] => reg_A[2].DATAIN
+A[3] => reg_A[3].DATAIN
+B[0] => reg_B[0].DATAIN
+B[1] => reg_B[1].DATAIN
+B[2] => reg_B[2].DATAIN
+B[3] => reg_B[3].DATAIN
+sum[0] <= sum[0]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+sum[1] <= sum[1]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+sum[2] <= sum[2]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+sum[3] <= sum[3]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+sum[4] <= sum[4]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+

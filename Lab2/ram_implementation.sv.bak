@@ -1,0 +1,68 @@
+module ram_implementation(CLOCK_50, KEY, SW, HEX0, HEX1, HEX2, HEX3, HEX4, HEX5);
+	input logic CLOCK_50;
+	input logic[3:0] KEY;
+	input logic[9:0] SW;
+	output logic[6:0] HEX0, HEX1, HEX2, HEX3, HEX4, HEX5;
+	
+	logic reset;
+	logic[3:0] read_data;
+	logic[4:0] read_address;
+	logic[15:0] counter = 0;
+	
+	ram32x4 r(.clock(CLOCK_50), .data(SW[3:0]), .raddress(read_address),
+				.wraddress(SW[8:4]), .wren(KEY[3]), .q(read_data));
+	
+	assign reset = KEY[0];
+	
+	always @(posedge clk) begin
+		if(reset) begin
+			read_address <= 0;
+			counter <= 0;
+		end
+		else begin
+			if(counter == 20000) begin
+				read_address++;
+				counter <= 0;
+			end
+			else begin
+				read_address = read_address;
+				counter++;
+			end
+		end
+	end
+	
+	// Displays each of the values on their respective HEX display
+	display_hex_value write_address_MSB_display({3'b0, SW[8]}, HEX5);
+	display_hex_value write_address_LSB_display(SW[7:4], HEX4);
+	display_hex_value read_address_MSB_display({3'b0, read_address[4]}, HEX3);
+	display_hex_value read_address_LSB_display(read_address[3:0], HEX2);
+	display_hex_value write_data_display(SW[3:0], HEX1);
+	display_hex_value write_data_display(read_data, HEX0);
+	
+endmodule
+
+module ram_implementation_testbench();
+	logic clk;
+	logic[3:0] KEY;
+	logic[9:0] SW;
+	logic[6:0] HEX0, HEX1, HEX2, HEX3, HEX4, HEX5;
+	
+	ram dut(.CLOCK_50(clk), .KEY, .SW, .HEX0, .HEX1, .HEX2, .HEX3,
+				.HEX4, .HEX5);
+	
+	// Set up a simulated clock.   
+	parameter CLOCK_PERIOD=100;  
+	initial begin   
+		clk <= 0;  
+		forever #(CLOCK_PERIOD/2) clk <= ~clk; // Forever toggle the clock 
+	end  
+
+	// Test the design. 
+	initial begin
+		btnInput <= 0; @(posedge clk);
+		btnInput <= 1;	repeat(5) @(posedge clk); 
+		btnInput <= 0; repeat(5) @(posedge clk);
+		btnInput <= 1;	repeat(5) @(posedge clk); 
+		$stop; // End the simulation.  
+	end
+endmodule

@@ -1,0 +1,237 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/suhey/OneDrive/Desktop/College Knowledge/2022 WI/EE 371/Labs/Lab2/Lab2_Task3_skeleton/simulation/modelsim
+vDE1_SoC
+Z1 DXx6 sv_std 3 std 0 22 AD7iAPLo6nTIKk<N0eo=D3
+Z2 !s110 1643558048
+!i10b 1
+!s100 CkkXzbEgQiHIhz6S2m^ia2
+I?_5jT]X3aPS7_C0BZHm0R2
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+Z4 !s105 DE1_SoC_sv_unit
+S1
+R0
+Z5 w1643557784
+Z6 8C:/Users/suhey/OneDrive/Desktop/College Knowledge/2022 WI/EE 371/Labs/Lab2/Lab2_Task3_skeleton/DE1_SoC.sv
+Z7 FC:/Users/suhey/OneDrive/Desktop/College Knowledge/2022 WI/EE 371/Labs/Lab2/Lab2_Task3_skeleton/DE1_SoC.sv
+L0 10
+Z8 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z9 !s108 1643558048.000000
+Z10 !s107 C:/Users/suhey/OneDrive/Desktop/College Knowledge/2022 WI/EE 371/Labs/Lab2/Lab2_Task3_skeleton/DE1_SoC.sv|
+Z11 !s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/suhey/OneDrive/Desktop/College Knowledge/2022 WI/EE 371/Labs/Lab2/Lab2_Task3_skeleton|C:/Users/suhey/OneDrive/Desktop/College Knowledge/2022 WI/EE 371/Labs/Lab2/Lab2_Task3_skeleton/DE1_SoC.sv|
+!i113 1
+Z12 o-sv -work work
+Z13 !s92 -sv -work work {+incdir+C:/Users/suhey/OneDrive/Desktop/College Knowledge/2022 WI/EE 371/Labs/Lab2/Lab2_Task3_skeleton}
+Z14 tCvgOpt 0
+n@d@e1_@so@c
+vDE1_SoC_testbench
+R1
+R2
+!i10b 1
+!s100 FjboRZXePD=VPUk3NK=UB2
+Ie5H?6E8i[3_ZF=c_LLX@=3
+R3
+R4
+S1
+R0
+R5
+R6
+R7
+L0 56
+R8
+r1
+!s85 0
+31
+R9
+R10
+R11
+!i113 1
+R12
+R13
+R14
+n@d@e1_@so@c_testbench
+vdisplay_hex_value
+R1
+Z15 !s110 1643558047
+!i10b 1
+!s100 2kDHcU?5SW7CHiFS_QU7g0
+IhBW8SZDzXj:1?^:IQi3jT3
+R3
+!s105 display_hex_value_sv_unit
+S1
+R0
+w1643532223
+8C:/Users/suhey/OneDrive/Desktop/College Knowledge/2022 WI/EE 371/Labs/Lab2/display_hex_value.sv
+FC:/Users/suhey/OneDrive/Desktop/College Knowledge/2022 WI/EE 371/Labs/Lab2/display_hex_value.sv
+L0 8
+R8
+r1
+!s85 0
+31
+Z16 !s108 1643558047.000000
+!s107 C:/Users/suhey/OneDrive/Desktop/College Knowledge/2022 WI/EE 371/Labs/Lab2/display_hex_value.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/suhey/OneDrive/Desktop/College Knowledge/2022 WI/EE 371/Labs/Lab2|C:/Users/suhey/OneDrive/Desktop/College Knowledge/2022 WI/EE 371/Labs/Lab2/display_hex_value.sv|
+!i113 1
+R12
+!s92 -sv -work work {+incdir+C:/Users/suhey/OneDrive/Desktop/College Knowledge/2022 WI/EE 371/Labs/Lab2}
+R14
+vFIFO
+R1
+R2
+!i10b 1
+!s100 d=^2Y<KZAg>g1W=ALM1S]3
+IdD9WG[n[K0G16UmY7GCH?2
+R3
+Z17 !s105 FIFO_sv_unit
+S1
+R0
+Z18 w1643557398
+Z19 8C:/Users/suhey/OneDrive/Desktop/College Knowledge/2022 WI/EE 371/Labs/Lab2/Lab2_Task3_skeleton/FIFO.sv
+Z20 FC:/Users/suhey/OneDrive/Desktop/College Knowledge/2022 WI/EE 371/Labs/Lab2/Lab2_Task3_skeleton/FIFO.sv
+Z21 L0 11
+R8
+r1
+!s85 0
+31
+R9
+Z22 !s107 C:/Users/suhey/OneDrive/Desktop/College Knowledge/2022 WI/EE 371/Labs/Lab2/Lab2_Task3_skeleton/FIFO.sv|
+Z23 !s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/suhey/OneDrive/Desktop/College Knowledge/2022 WI/EE 371/Labs/Lab2/Lab2_Task3_skeleton|C:/Users/suhey/OneDrive/Desktop/College Knowledge/2022 WI/EE 371/Labs/Lab2/Lab2_Task3_skeleton/FIFO.sv|
+!i113 1
+R12
+R13
+R14
+n@f@i@f@o
+vFIFO_Control
+R1
+R15
+!i10b 1
+!s100 L5Udkd=SDIQ0O_?316K7k3
+ISeX=_O6F5k76nl;5zK9]N1
+R3
+!s105 FIFO_Control_sv_unit
+S1
+R0
+w1643557413
+8C:/Users/suhey/OneDrive/Desktop/College Knowledge/2022 WI/EE 371/Labs/Lab2/Lab2_Task3_skeleton/FIFO_Control.sv
+FC:/Users/suhey/OneDrive/Desktop/College Knowledge/2022 WI/EE 371/Labs/Lab2/Lab2_Task3_skeleton/FIFO_Control.sv
+R21
+R8
+r1
+!s85 0
+31
+R16
+!s107 C:/Users/suhey/OneDrive/Desktop/College Knowledge/2022 WI/EE 371/Labs/Lab2/Lab2_Task3_skeleton/FIFO_Control.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/suhey/OneDrive/Desktop/College Knowledge/2022 WI/EE 371/Labs/Lab2/Lab2_Task3_skeleton|C:/Users/suhey/OneDrive/Desktop/College Knowledge/2022 WI/EE 371/Labs/Lab2/Lab2_Task3_skeleton/FIFO_Control.sv|
+!i113 1
+R12
+R13
+R14
+n@f@i@f@o_@control
+vFIFO_testbench
+R1
+R2
+!i10b 1
+!s100 >]o5J2`KA:mKYmU[n?h052
+IQ[J5m4<3_>mKA>X:IJ]JO2
+R3
+R17
+S1
+R0
+R18
+R19
+R20
+L0 45
+R8
+r1
+!s85 0
+31
+R9
+R22
+R23
+!i113 1
+R12
+R13
+R14
+n@f@i@f@o_testbench
+vram16x8
+R15
+!i10b 1
+!s100 `8QHKX;4om^?W6gO3HE=C2
+Ig41jf>:WZXW>IY4;kAzTT1
+R3
+R0
+w1643420536
+8C:/Users/suhey/OneDrive/Desktop/College Knowledge/2022 WI/EE 371/Labs/Lab2/Lab2_Task3_skeleton/ram16x8.v
+FC:/Users/suhey/OneDrive/Desktop/College Knowledge/2022 WI/EE 371/Labs/Lab2/Lab2_Task3_skeleton/ram16x8.v
+L0 40
+R8
+r1
+!s85 0
+31
+R16
+!s107 C:/Users/suhey/OneDrive/Desktop/College Knowledge/2022 WI/EE 371/Labs/Lab2/Lab2_Task3_skeleton/ram16x8.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/suhey/OneDrive/Desktop/College Knowledge/2022 WI/EE 371/Labs/Lab2/Lab2_Task3_skeleton|C:/Users/suhey/OneDrive/Desktop/College Knowledge/2022 WI/EE 371/Labs/Lab2/Lab2_Task3_skeleton/ram16x8.v|
+!i113 1
+o-vlog01compat -work work
+!s92 -vlog01compat -work work {+incdir+C:/Users/suhey/OneDrive/Desktop/College Knowledge/2022 WI/EE 371/Labs/Lab2/Lab2_Task3_skeleton}
+R14
+vuser_input
+R1
+R15
+!i10b 1
+!s100 ]AdhdgZE=6JVA>DEBUbJJ3
+IVA27;jIoOiF7;03O49D1_0
+R3
+Z24 !s105 user_input_sv_unit
+S1
+R0
+Z25 w1643547468
+Z26 8C:/Users/suhey/OneDrive/Desktop/College Knowledge/2022 WI/EE 371/Labs/Lab2/Lab2_Task3_skeleton/user_input.sv
+Z27 FC:/Users/suhey/OneDrive/Desktop/College Knowledge/2022 WI/EE 371/Labs/Lab2/Lab2_Task3_skeleton/user_input.sv
+L0 7
+R8
+r1
+!s85 0
+31
+R16
+Z28 !s107 C:/Users/suhey/OneDrive/Desktop/College Knowledge/2022 WI/EE 371/Labs/Lab2/Lab2_Task3_skeleton/user_input.sv|
+Z29 !s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/suhey/OneDrive/Desktop/College Knowledge/2022 WI/EE 371/Labs/Lab2/Lab2_Task3_skeleton|C:/Users/suhey/OneDrive/Desktop/College Knowledge/2022 WI/EE 371/Labs/Lab2/Lab2_Task3_skeleton/user_input.sv|
+!i113 1
+R12
+R13
+R14
+vuser_input_testbench
+R1
+R15
+!i10b 1
+!s100 NX9iX`A>9TzzPJFT_YnbT0
+I]Tn4BVD>BPc>AVZ5f^TI=3
+R3
+R24
+S1
+R0
+R25
+R26
+R27
+L0 37
+R8
+r1
+!s85 0
+31
+R16
+R28
+R29
+!i113 1
+R12
+R13
+R14

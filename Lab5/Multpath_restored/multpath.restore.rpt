@@ -1,0 +1,82 @@
+Restore Archived Project report for multpath
+Fri Mar 04 22:53:08 2022
+Quartus Prime Version 17.0.0 Build 595 04/25/2017 SJ Lite Edition
+
+
+---------------------
+; Table of Contents ;
+---------------------
+  1. Legal Notice
+  2. Restore Archived Project Summary
+  3. Restore Archived Project Messages
+  4. Files Restored
+  5. Files Not Restored
+
+
+
+----------------
+; Legal Notice ;
+----------------
+Copyright (C) 2017  Intel Corporation. All rights reserved.
+Your use of Intel Corporation's design tools, logic functions 
+and other software and tools, and its AMPP partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Intel Program License 
+Subscription Agreement, the Intel Quartus Prime License Agreement,
+the Intel MegaCore Function License Agreement, or other 
+applicable license agreement, including, without limitation, 
+that your use is for the sole purpose of programming logic 
+devices manufactured by Intel and sold by Intel or its 
+authorized distributors.  Please refer to the applicable 
+agreement for further details.
+
+
+
++-------------------------------------------------------------------------+
+; Restore Archived Project Summary                                        ;
++---------------------------------+---------------------------------------+
+; Restore Archived Project Status ; Successful - Fri Mar 04 22:53:08 2022 ;
+; Revision Name                   ; multpath                              ;
+; Top-level Entity Name           ; multpath                              ;
+; Family                          ; MAX 10                                ;
++---------------------------------+---------------------------------------+
+
+
++-----------------------------------+
+; Restore Archived Project Messages ;
++-----------------------------------+
+Warning (13177): Your design targets the device family "MAX 10". The specified family is not a valid device family, is not installed, or is not supported in this version of the Quartus Prime software. If you restored a project from an archived version, your project was successfully restored, but you still must specify or install a supported device family.
+Info (13198): Your project was successfully restored, but the device information in the Flow Summary report cannot be updated until the design targets a supported device family.
+Info: Successfully restored 'C:/Users/suhey/OneDrive/Desktop/College Knowledge/2022 WI/EE 371/Labs/Lab5/Multpath.qar' into the 'C:/Users/suhey/OneDrive/Desktop/College Knowledge/2022 WI/EE 371/Labs/Lab5/Multpath_restored/' directory
+Info: Generated report 'multpath.restore.rpt'
+Info (23030): Evaluation of Tcl script c:/intelfpga_lite/17.0/quartus/common/tcl/apps/qpm/qar.tcl was successful
+Info: Quartus Prime Shell was successful. 0 errors, 1 warning
+    Info: Peak virtual memory: 4816 megabytes
+    Info: Processing ended: Fri Mar 04 22:53:08 2022
+    Info: Elapsed time: 00:00:02
+    Info: Total CPU time (on all processors): 00:00:01
+
+
++-------------------------+
+; Files Restored          ;
++-------------------------+
+; File Name               ;
++-------------------------+
+; qar_info.json           ;
+; multpath.out.sdc        ;
+; multpath.qpf            ;
+; multpath.qsf            ;
+; multpath.v              ;
+; assignment_defaults.qdf ;
++-------------------------+
+
+
++--------------------+
+; Files Not Restored ;
++--------------------+
+; File Name          ;
++--------------------+
+
+

@@ -1,0 +1,238 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/suhey/OneDrive/Desktop/College Knowledge/2022 WI/EE 371/Labs/Lab3/Lab3template/Lab3template/simulation/modelsim
+vanimator
+Z1 DXx6 sv_std 3 std 0 22 AD7iAPLo6nTIKk<N0eo=D3
+Z2 !s110 1644757555
+!i10b 1
+!s100 jM16o?oSTmMUT[UEBDM0;2
+I>EDz8K[8X]IH2fNhF<:B;3
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+Z4 !s105 animator_sv_unit
+S1
+R0
+Z5 w1644757097
+Z6 8C:/Users/suhey/OneDrive/Desktop/College Knowledge/2022 WI/EE 371/Labs/Lab3/Lab3template/Lab3template/animator.sv
+Z7 FC:/Users/suhey/OneDrive/Desktop/College Knowledge/2022 WI/EE 371/Labs/Lab3/Lab3template/Lab3template/animator.sv
+L0 10
+Z8 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z9 !s108 1644757555.000000
+Z10 !s107 C:/Users/suhey/OneDrive/Desktop/College Knowledge/2022 WI/EE 371/Labs/Lab3/Lab3template/Lab3template/animator.sv|
+Z11 !s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/suhey/OneDrive/Desktop/College Knowledge/2022 WI/EE 371/Labs/Lab3/Lab3template/Lab3template|C:/Users/suhey/OneDrive/Desktop/College Knowledge/2022 WI/EE 371/Labs/Lab3/Lab3template/Lab3template/animator.sv|
+!i113 1
+Z12 o-sv -work work
+Z13 !s92 -sv -work work {+incdir+C:/Users/suhey/OneDrive/Desktop/College Knowledge/2022 WI/EE 371/Labs/Lab3/Lab3template/Lab3template}
+Z14 tCvgOpt 0
+vanimator_testbench
+R1
+R2
+!i10b 1
+!s100 ?YN=a?`8;e^@ETVOUVdHS0
+IRKLAE_NX`XhV<4`^AG1h<1
+R3
+R4
+S1
+R0
+R5
+R6
+R7
+L0 63
+R8
+r1
+!s85 0
+31
+R9
+R10
+R11
+!i113 1
+R12
+R13
+R14
+vclock_divider
+R1
+R2
+!i10b 1
+!s100 9SAgN?XT1@B2i9bR2C29G3
+ITzhlQN:YS1OfZN1fBbL8=2
+R3
+Z15 !s105 clock_divider_sv_unit
+S1
+R0
+Z16 w1644749508
+Z17 8C:/Users/suhey/OneDrive/Desktop/College Knowledge/2022 WI/EE 371/Labs/Lab3/Lab3template/Lab3template/clock_divider.sv
+Z18 FC:/Users/suhey/OneDrive/Desktop/College Knowledge/2022 WI/EE 371/Labs/Lab3/Lab3template/Lab3template/clock_divider.sv
+L0 12
+R8
+r1
+!s85 0
+31
+R9
+Z19 !s107 C:/Users/suhey/OneDrive/Desktop/College Knowledge/2022 WI/EE 371/Labs/Lab3/Lab3template/Lab3template/clock_divider.sv|
+Z20 !s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/suhey/OneDrive/Desktop/College Knowledge/2022 WI/EE 371/Labs/Lab3/Lab3template/Lab3template|C:/Users/suhey/OneDrive/Desktop/College Knowledge/2022 WI/EE 371/Labs/Lab3/Lab3template/Lab3template/clock_divider.sv|
+!i113 1
+R12
+R13
+R14
+vclock_divider_testbench
+R1
+R2
+!i10b 1
+!s100 ^86]_KJ@8b_F5lQUV3]Dc2
+I>=I=2LUm@mNo^_TnLIJcO3
+R3
+R15
+S1
+R0
+R16
+R17
+R18
+L0 25
+R8
+r1
+!s85 0
+31
+R9
+R19
+R20
+!i113 1
+R12
+R13
+R14
+vDE1_SoC
+R1
+R2
+!i10b 1
+!s100 PBiAiLm@PJl_b1U>B^6c63
+Ia9?RJ4Peg1[kRE9OjM_QG1
+R3
+Z21 !s105 DE1_SoC_sv_unit
+S1
+R0
+Z22 w1644757465
+Z23 8C:/Users/suhey/OneDrive/Desktop/College Knowledge/2022 WI/EE 371/Labs/Lab3/Lab3template/Lab3template/DE1_SoC.sv
+Z24 FC:/Users/suhey/OneDrive/Desktop/College Knowledge/2022 WI/EE 371/Labs/Lab3/Lab3template/Lab3template/DE1_SoC.sv
+L0 9
+R8
+r1
+!s85 0
+31
+R9
+Z25 !s107 C:/Users/suhey/OneDrive/Desktop/College Knowledge/2022 WI/EE 371/Labs/Lab3/Lab3template/Lab3template/DE1_SoC.sv|
+Z26 !s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/suhey/OneDrive/Desktop/College Knowledge/2022 WI/EE 371/Labs/Lab3/Lab3template/Lab3template|C:/Users/suhey/OneDrive/Desktop/College Knowledge/2022 WI/EE 371/Labs/Lab3/Lab3template/Lab3template/DE1_SoC.sv|
+!i113 1
+R12
+R13
+R14
+n@d@e1_@so@c
+vDE1_SoC_testbench
+R1
+R2
+!i10b 1
+!s100 d;7Ve44cWjoN7QEm7gSiC2
+Iln:Rd2BHXNRIzZ3Jl2Bgi0
+R3
+R21
+S1
+R0
+R22
+R23
+R24
+L0 81
+R8
+r1
+!s85 0
+31
+R9
+R25
+R26
+!i113 1
+R12
+R13
+R14
+n@d@e1_@so@c_testbench
+vline_drawer
+R1
+R2
+!i10b 1
+!s100 IFXBG7nGbejE7R2HOigbO1
+IHXi4OdUUbe?ndV]mOTU222
+R3
+Z27 !s105 line_drawer_sv_unit
+S1
+R0
+Z28 w1644755809
+Z29 8C:/Users/suhey/OneDrive/Desktop/College Knowledge/2022 WI/EE 371/Labs/Lab3/Lab3template/Lab3template/line_drawer.sv
+Z30 FC:/Users/suhey/OneDrive/Desktop/College Knowledge/2022 WI/EE 371/Labs/Lab3/Lab3template/Lab3template/line_drawer.sv
+L0 11
+R8
+r1
+!s85 0
+31
+Z31 !s108 1644757554.000000
+Z32 !s107 C:/Users/suhey/OneDrive/Desktop/College Knowledge/2022 WI/EE 371/Labs/Lab3/Lab3template/Lab3template/line_drawer.sv|
+Z33 !s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/suhey/OneDrive/Desktop/College Knowledge/2022 WI/EE 371/Labs/Lab3/Lab3template/Lab3template|C:/Users/suhey/OneDrive/Desktop/College Knowledge/2022 WI/EE 371/Labs/Lab3/Lab3template/Lab3template/line_drawer.sv|
+!i113 1
+R12
+R13
+R14
+vline_drawer_testbench
+R1
+R2
+!i10b 1
+!s100 91g_bPIX[iog^030kH[AT3
+I99Y>>;:Re5O^4Q_cb^30^0
+R3
+R27
+S1
+R0
+R28
+R29
+R30
+L0 119
+R8
+r1
+!s85 0
+31
+R31
+R32
+R33
+!i113 1
+R12
+R13
+R14
+vVGA_framebuffer
+R1
+!s110 1644757554
+!i10b 1
+!s100 `6A`P2RPlQ@7gHH_0b8;_1
+I21nI<n22gkzVAQ]>697k43
+R3
+!s105 VGA_framebuffer_sv_unit
+S1
+R0
+w1582656004
+8C:/Users/suhey/OneDrive/Desktop/College Knowledge/2022 WI/EE 371/Labs/Lab3/Lab3template/Lab3template/VGA_framebuffer.sv
+FC:/Users/suhey/OneDrive/Desktop/College Knowledge/2022 WI/EE 371/Labs/Lab3/Lab3template/Lab3template/VGA_framebuffer.sv
+L0 3
+R8
+r1
+!s85 0
+31
+R31
+!s107 C:/Users/suhey/OneDrive/Desktop/College Knowledge/2022 WI/EE 371/Labs/Lab3/Lab3template/Lab3template/VGA_framebuffer.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/suhey/OneDrive/Desktop/College Knowledge/2022 WI/EE 371/Labs/Lab3/Lab3template/Lab3template|C:/Users/suhey/OneDrive/Desktop/College Knowledge/2022 WI/EE 371/Labs/Lab3/Lab3template/Lab3template/VGA_framebuffer.sv|
+!i113 1
+R12
+R13
+R14
+n@v@g@a_framebuffer

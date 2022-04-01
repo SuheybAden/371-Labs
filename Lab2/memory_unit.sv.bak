@@ -1,0 +1,27 @@
+module memory_unit(SW, KEY, HEX0, HEX1, HEX2, HEX3, HEX4, HEX5);
+	// Define inputs and outputs
+	input logic[9:0] SW;
+	input logic[3:0] KEY;
+	logic[6:0] HEX0, HEX1, HEX2, HEX3, HEX4, HEX5;
+	
+	logic [3:0][31:0] memory_array;
+	logic input_data;
+	logic address;
+	logic write;
+	logic clk;
+	
+	assign input_data = SW[3:0];
+	assign address = SW[8:4];
+	assign write = SW[9];
+	assign clk = KEY[0];
+	
+	always @(posedge clk) begin
+		memory_array[3:0][address] = input_data;
+	end
+	
+endmodule
+
+module hex_display(value, hex_display);
+	input logic
+endmodule
+

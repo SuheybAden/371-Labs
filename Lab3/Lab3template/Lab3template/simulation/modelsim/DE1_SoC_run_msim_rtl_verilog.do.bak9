@@ -1,0 +1,9 @@
+transcript on
+if {[file exists rtl_work]} {
+	vdel -lib rtl_work -all
+}
+vlib rtl_work
+vmap work rtl_work
+
+vlog -sv -work work +incdir+C:/Users/suhey/OneDrive/Desktop/College\ Knowledge/2022\ WI/EE\ 371/Labs/Lab3/Lab3template/Lab3template {C:/Users/suhey/OneDrive/Desktop/College Knowledge/2022 WI/EE 371/Labs/Lab3/Lab3template/Lab3template/animator.sv}
+

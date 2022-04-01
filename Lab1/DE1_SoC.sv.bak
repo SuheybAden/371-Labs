@@ -1,0 +1,3 @@
+module DE1_SoC(SW, HEX0, HEX1)
+
+endmodule;

@@ -1,0 +1,14 @@
+// Suheyb Aden
+// 2/11/2022
+// EE 371
+// Lab #3, Task #2
+
+// This module 
+module animator(clk, reset, start_x, start_y, end_x, end_y, color);
+	logic[7:0] counter = 0;
+	
+	always_ff @(posedge clk) begin
+		if(reset) counter <= 0;
+		else counter <= counter + 1;
+	end
+endmodule

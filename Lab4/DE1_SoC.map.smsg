@@ -1,0 +1,3 @@
+Info (10281): Verilog HDL Declaration information at bit_counter.sv(10): object "reset" differs only in case from object "RESET" in the same scope File: C:/Users/suhey/OneDrive/Desktop/College Knowledge/2022 WI/EE 371/Labs/Lab4/bit_counter.sv Line: 10
+Info (10281): Verilog HDL Declaration information at bit_counter.sv(13): object "done" differs only in case from object "DONE" in the same scope File: C:/Users/suhey/OneDrive/Desktop/College Knowledge/2022 WI/EE 371/Labs/Lab4/bit_counter.sv Line: 13
+Info (10281): Verilog HDL Declaration information at binary_search.sv(44): object "reset" differs only in case from object "RESET" in the same scope File: C:/Users/suhey/OneDrive/Desktop/College Knowledge/2022 WI/EE 371/Labs/Lab4/binary_search.sv Line: 44

@@ -1,0 +1,11 @@
+module gatekeeper(clk, a, b, enter, exit)
+	input logic clk, a, b;
+	output logic enter, exit;
+	
+	
+	
+endmodule;
+
+module gatekeeper_testbench()
+
+endmodule;

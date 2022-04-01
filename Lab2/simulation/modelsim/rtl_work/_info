@@ -1,0 +1,107 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/suhey/OneDrive/Desktop/College Knowledge/2022 WI/EE 371/Labs/Lab2/simulation/modelsim
+vdisplay_hex_value
+Z1 DXx6 sv_std 3 std 0 22 AD7iAPLo6nTIKk<N0eo=D3
+Z2 !s110 1643548496
+!i10b 1
+!s100 2kDHcU?5SW7CHiFS_QU7g0
+IhBW8SZDzXj:1?^:IQi3jT3
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+!s105 display_hex_value_sv_unit
+S1
+R0
+w1643532223
+8C:/Users/suhey/OneDrive/Desktop/College Knowledge/2022 WI/EE 371/Labs/Lab2/display_hex_value.sv
+FC:/Users/suhey/OneDrive/Desktop/College Knowledge/2022 WI/EE 371/Labs/Lab2/display_hex_value.sv
+L0 8
+Z4 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z5 !s108 1643548496.000000
+!s107 C:/Users/suhey/OneDrive/Desktop/College Knowledge/2022 WI/EE 371/Labs/Lab2/display_hex_value.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/suhey/OneDrive/Desktop/College Knowledge/2022 WI/EE 371/Labs/Lab2|C:/Users/suhey/OneDrive/Desktop/College Knowledge/2022 WI/EE 371/Labs/Lab2/display_hex_value.sv|
+!i113 1
+Z6 o-sv -work work
+Z7 !s92 -sv -work work {+incdir+C:/Users/suhey/OneDrive/Desktop/College Knowledge/2022 WI/EE 371/Labs/Lab2}
+Z8 tCvgOpt 0
+vram32x4
+!s110 1643548495
+!i10b 1
+!s100 9JJedTWeU:e;4^:[EX2fk2
+I9_`2XHcd`lc9C<K:_E70R3
+R3
+R0
+w1643408748
+8C:/Users/suhey/OneDrive/Desktop/College Knowledge/2022 WI/EE 371/Labs/Lab2/ram32x4.v
+FC:/Users/suhey/OneDrive/Desktop/College Knowledge/2022 WI/EE 371/Labs/Lab2/ram32x4.v
+L0 40
+R4
+r1
+!s85 0
+31
+!s108 1643548495.000000
+!s107 C:/Users/suhey/OneDrive/Desktop/College Knowledge/2022 WI/EE 371/Labs/Lab2/ram32x4.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/suhey/OneDrive/Desktop/College Knowledge/2022 WI/EE 371/Labs/Lab2|C:/Users/suhey/OneDrive/Desktop/College Knowledge/2022 WI/EE 371/Labs/Lab2/ram32x4.v|
+!i113 1
+o-vlog01compat -work work
+!s92 -vlog01compat -work work {+incdir+C:/Users/suhey/OneDrive/Desktop/College Knowledge/2022 WI/EE 371/Labs/Lab2}
+R8
+vram_implementation
+R1
+R2
+!i10b 1
+!s100 jOfPDjS0ZZDQYI6XBEbD>1
+I=LB1KMWULY9?d4eJ_O0j53
+R3
+Z9 !s105 ram_implementation_sv_unit
+S1
+R0
+Z10 w1643547969
+Z11 8C:/Users/suhey/OneDrive/Desktop/College Knowledge/2022 WI/EE 371/Labs/Lab2/ram_implementation.sv
+Z12 FC:/Users/suhey/OneDrive/Desktop/College Knowledge/2022 WI/EE 371/Labs/Lab2/ram_implementation.sv
+L0 11
+R4
+r1
+!s85 0
+31
+R5
+Z13 !s107 C:/Users/suhey/OneDrive/Desktop/College Knowledge/2022 WI/EE 371/Labs/Lab2/ram_implementation.sv|
+Z14 !s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/suhey/OneDrive/Desktop/College Knowledge/2022 WI/EE 371/Labs/Lab2|C:/Users/suhey/OneDrive/Desktop/College Knowledge/2022 WI/EE 371/Labs/Lab2/ram_implementation.sv|
+!i113 1
+R6
+R7
+R8
+vram_implementation_testbench
+R1
+R2
+!i10b 1
+!s100 zaN:B05lO[?S1FOnMPPPZ1
+IcNcm@?c0OOPA6g[NXTnXl1
+R3
+R9
+S1
+R0
+R10
+R11
+R12
+L0 65
+R4
+r1
+!s85 0
+31
+R5
+R13
+R14
+!i113 1
+R6
+R7
+R8

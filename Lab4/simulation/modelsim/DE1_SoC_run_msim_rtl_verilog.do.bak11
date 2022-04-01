@@ -1,0 +1,12 @@
+transcript on
+if {[file exists rtl_work]} {
+	vdel -lib rtl_work -all
+}
+vlib rtl_work
+vmap work rtl_work
+
+vlog -vlog01compat -work work +incdir+C:/Users/suhey/OneDrive/Desktop/College\ Knowledge/2022\ WI/EE\ 371/Labs/Lab4 {C:/Users/suhey/OneDrive/Desktop/College Knowledge/2022 WI/EE 371/Labs/Lab4/ram32x8.v}
+vlog -sv -work work +incdir+C:/Users/suhey/OneDrive/Desktop/College\ Knowledge/2022\ WI/EE\ 371/Labs/Lab4 {C:/Users/suhey/OneDrive/Desktop/College Knowledge/2022 WI/EE 371/Labs/Lab4/display_hex_value.sv}
+vlog -sv -work work +incdir+C:/Users/suhey/OneDrive/Desktop/College\ Knowledge/2022\ WI/EE\ 371/Labs/Lab4 {C:/Users/suhey/OneDrive/Desktop/College Knowledge/2022 WI/EE 371/Labs/Lab4/binary_search.sv}
+vlog -sv -work work +incdir+C:/Users/suhey/OneDrive/Desktop/College\ Knowledge/2022\ WI/EE\ 371/Labs/Lab4 {C:/Users/suhey/OneDrive/Desktop/College Knowledge/2022 WI/EE 371/Labs/Lab4/DE1_SoC.sv}
+
